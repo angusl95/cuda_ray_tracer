@@ -25,6 +25,15 @@
 /* Begin PBXFileReference section */
 		E51F466D25915AF00044E112 /* ray_tracer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ray_tracer; sourceTree = BUILT_PRODUCTS_DIR; };
 		E51F467025915AF00044E112 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E51F46772592C3D00044E112 /* vec3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = vec3.h; sourceTree = "<group>"; };
+		E51F467825979E420044E112 /* color.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = color.h; sourceTree = "<group>"; };
+		E51F4679259A17580044E112 /* ray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ray.h; sourceTree = "<group>"; };
+		E51F467A259BEDA70044E112 /* hittable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hittable.h; sourceTree = "<group>"; };
+		E51F467B259BF1610044E112 /* sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		E51F467C259C024F0044E112 /* hittable_list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hittable_list.h; sourceTree = "<group>"; };
+		E51F467D259C0B1D0044E112 /* rtweekend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rtweekend.h; sourceTree = "<group>"; };
+		E51F467E259D0F8A0044E112 /* camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		E51F467F259DF5930044E112 /* material.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = material.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,15 @@
 			isa = PBXGroup;
 			children = (
 				E51F467025915AF00044E112 /* main.cpp */,
+				E51F467A259BEDA70044E112 /* hittable.h */,
+				E51F467B259BF1610044E112 /* sphere.h */,
+				E51F467C259C024F0044E112 /* hittable_list.h */,
+				E51F467D259C0B1D0044E112 /* rtweekend.h */,
+				E51F467E259D0F8A0044E112 /* camera.h */,
+				E51F4679259A17580044E112 /* ray.h */,
+				E51F46772592C3D00044E112 /* vec3.h */,
+				E51F467825979E420044E112 /* color.h */,
+				E51F467F259DF5930044E112 /* material.h */,
 			);
 			path = ray_tracer;
 			sourceTree = "<group>";
